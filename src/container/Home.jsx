@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HiChevronDoubleLeft } from "react-icons/hi2";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Logo } from "../assets";
+import { Logo1 } from "../assets";
 import { FaSearchengin } from "react-icons/fa6";
 
 const Home = () => {
@@ -26,7 +26,11 @@ const Home = () => {
         <div className="overflow-hidden w-full flex flex-col gap-4">
           {/* logo */}
           <Link to={"/home"}>
-            <img src={Logo} alt="Logo" className="object-contain w-72 h-auto" />
+            <img
+              src={Logo1}
+              alt="Logo"
+              className="object-contain w-72 h-auto"
+            />
           </Link>
 
           <Link to={"/pen"}>
