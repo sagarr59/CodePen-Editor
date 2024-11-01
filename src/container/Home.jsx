@@ -84,9 +84,6 @@ const Home = () => {
             </Link>
           </motion.div>
         </div>
-
-        {/* bottom section */}
-        <div className="w-full"></div>
       </div>
     </>
   );
